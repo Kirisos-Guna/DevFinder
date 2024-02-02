@@ -1,0 +1,11 @@
+{
+  "appId": "com.DevFinder.app",
+  "appName": "DevFinder",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "out",
+  
+  "server": {
+    "androidScheme": "https"
+  }
+}

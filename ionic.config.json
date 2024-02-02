@@ -1,0 +1,7 @@
+{
+    "name": "DevFinder",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }

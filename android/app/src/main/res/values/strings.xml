@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DevFinder</string>
+    <string name="title_activity_main">DevFinder</string>
+    <string name="package_name">com.DevFinder.app</string>
+    <string name="custom_url_scheme">com.DevFinder.app</string>
+</resources>
