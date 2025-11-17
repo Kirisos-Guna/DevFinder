@@ -3,7 +3,7 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import dateFormat from "dateformat";
+import dateFormte from "dateformat";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -125,7 +125,7 @@ export default function Home() {
                   {/* joined date */}
                   <p className="">
                     <span>Joined</span>
-                    <span> {dateFormat(data?.created_at, "dd mmm yyyy")} </span>
+                    <span> {dateFormte(data?.created_at, "dd mmm yyyy")} </span>
                   </p>
                 </section>
               </section>
