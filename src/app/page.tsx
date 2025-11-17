@@ -192,11 +192,17 @@ export default function Home() {
                   <div className="flex items-center gap-2">
                     {/* icon */}
                     <FaTwitter className="text-xl" />
-                    <p>
-                      {data?.company ?? (
-                        <span className="opacity-60">Not Available</span>
-                      )}
-                    </p>
+                    {data?.twitter_username ? (
+                      <Link
+                        className="hover:underline"
+                        target="_blank"
+                        href={`https://twitter.com/${data.twitter_username}`}
+                      >
+                        @{data.twitter_username}
+                      </Link>
+                    ) : (
+                      <span className="opacity-60">Not Available</span>
+                    )}
                   </div>
                   {/* item 4 */}
                   <div className="flex items-center gap-2">
